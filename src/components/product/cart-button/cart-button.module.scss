@@ -1,0 +1,27 @@
+.cartButton {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.cartBadge {
+    background-color: #cf4c5f;
+    position: absolute;
+    top: -0.4rem;
+    right: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0;
+    border-radius: 50%;
+}

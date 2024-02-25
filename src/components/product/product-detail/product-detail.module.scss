@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.label {
+    color: #a9a9ad;
+}
+
+.text {
+    color: #d4d4d6;
+    line-height: 1.5rem;
+}

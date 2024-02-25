@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+    .leftIcon {
+        position: absolute;
+        left: 1rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
